@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rise Up English - Escola de Inglês Online para Todas as Idades</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'usa-red': '#BF0A30',
+            'usa-blue': '#002868',
+            'usa-white': '#FFFFFF'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .hero-bg {
+      background: linear-gradient(135deg, #002868 0%, #BF0A30 100%);
+    }
+    .text-shadow {
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-usa-blue text-white shadow-lg">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">Rise Up English</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#como-funciona" class="hover:text-red-300 transition-colors">Como Funciona</a>
+        <a href="#depoimentos" class="hover:text-red-300 transition-colors">Depoimentos</a>
+        <a href="#matricula" class="hover:text-red-300 transition-colors">Matrícula</a>
+        <a href="#contato" class="hover:text-red-300 transition-colors">Contato</a>
+      </nav>
+      <div class="md:hidden">
+        <button class="text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-bg text-white text-center py-24 px-4" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-5xl md:text-6xl font-extrabold mb-6 text-shadow">Aprenda Inglês Online</h2>
+      <p class="text-xl md:text-2xl mb-4 text-shadow">Para todas as idades, no seu ritmo, de onde você estiver</p>
+      <p class="text-lg mb-8 opacity-90">Método comprovado • Professores nativos • Aulas ao vivo • Flexibilidade total</p>
+      <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+        <a href="#matricula" class="bg-usa-red hover:bg-red-700 text-white px-8 py-4 font-semibold rounded-lg shadow-lg transition-all transform hover:scale-105 inline-block">
+          Comece Hoje Mesmo
+        </a>
+        <a href="#como-funciona" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-usa-blue px-8 py-4 font-semibold rounded-lg transition-all inline-block">
+          Saiba Como Funciona
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Vídeo -->
+  <section class="text-center py-20 px-4 bg-gray-50" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 text-usa-blue">Conheça a Rise Up English</h2>
+      <p class="text-lg text-gray-600 mb-10">Descubra como transformamos o aprendizado de inglês em uma experiência única e eficaz</p>
+      <div class="mx-auto w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-2xl">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo institucional Rise Up English" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Como Funciona -->
+  <section id="como-funciona" class="py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-4 text-usa-blue">Como Funciona Nossa Metodologia</h2>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">Desenvolvemos um método único que combina flexibilidade, interatividade e personalização para garantir seu sucesso no aprendizado do inglês</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-10">
+        <!-- Card 1: Flexibilidade -->
+        <div class="text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all" data-aos="fade-up" data-aos-delay="100">
+          <div class="w-20 h-20 mx-auto mb-6 bg-usa-red rounded-full flex items-center justify-center">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-semibold text-usa-blue mb-4">Flexibilidade Total</h3>
+          <p class="text-gray-600 leading-relaxed">Estude quando e onde quiser. Nossas aulas online se adaptam à sua rotina, seja você criança, adolescente, adulto ou da terceira idade. Horários flexíveis para todos os perfis.</p>
+        </div>
+
+        <!-- Card 2: Interatividade -->
+        <div class="text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all" data-aos="fade-up" data-aos-delay="200">
+          <div class="w-20 h-20 mx-auto mb-6 bg-usa-red rounded-full flex items-center justify-center">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-semibold text-usa-blue mb-4">Aulas Interativas</h3>
+          <p class="text-gray-600 leading-relaxed">Aulas ao vivo via Google Meet com professores nativos e bilíngues. Interação constante, prática de conversação e feedback imediato para acelerar seu aprendizado.</p>
+        </div>
+
+        <!-- Card 3: Conteúdo Personalizado -->
+        <div class="text-center bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all" data-aos="fade-up" data-aos-delay="300">
+          <div class="w-20 h-20 mx-auto mb-6 bg-usa-red rounded-full flex items-center justify-center">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-semibold text-usa-blue mb-4">Conteúdo Personalizado</h3>
+          <p class="text-gray-600 leading-relaxed">Plano de estudos adaptado ao seu nível e objetivos. Material didático exclusivo, exercícios práticos e acompanhamento individual para garantir seu progresso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Modalidades -->
+  <section class="bg-gray-50 py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-4 text-usa-blue">Modalidades de Curso</h2>
+        <p class="text-lg text-gray-600">Escolha a modalidade ideal para seu perfil e objetivos</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-usa-red text-5xl mb-4">🎯</div>
+          <h3 class="text-xl font-semibold text-usa-blue mb-3">Aulas ao Vivo Online</h3>
+          <p class="text-gray-600">Estude de onde quiser com aulas via Google Meet. Interação garantida com colegas e professores nativos. Turmas pequenas para máximo aproveitamento.</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-usa-red text-5xl mb-4">💬</div>
+          <h3 class="text-xl font-semibold text-usa-blue mb-3">Mentorias de Conversação</h3>
+          <p class="text-gray-600">Foco 100% em falar inglês. Mentorias semanais individuais com feedback ao vivo e conteúdo prático para ganhar fluência rapidamente.</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="300">
+          <div class="text-usa-red text-5xl mb-4">⚡</div>
+          <h3 class="text-xl font-semibold text-usa-blue mb-3">Curso Turbo</h3>
+          <p class="text-gray-600">Conquiste fluência em até 2 anos. Aulas semanais intensas com plano de estudo personalizado e acompanhamento individual.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Depoimentos -->
+  <section id="depoimentos" class="py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16" data-aos="fade-up">
+        <h2 class="text-4xl font-bold text-usa-blue mb-4">O Que Nossos Alunos Dizem</h2>
+        <p class="text-lg text-gray-600">Histórias reais de transformação através do inglês</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+          <div class="flex items-center mb-6">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="João M." class="w-16 h-16 rounded-full mr-4">
+            <div>
+              <p class="font-bold text-usa-blue">João M.</p>
+              <p class="text-sm text-gray-500">Empresário, 45 anos</p>
+            </div>
+          </div>
+          <p class="text-gray-700 italic leading-relaxed">"Aos 45 anos achei que seria difícil aprender inglês, mas a Rise Up provou o contrário. As aulas online são incríveis e me sinto muito mais confiante para falar inglês nos meus negócios."</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex items-center mb-6">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Carla T." class="w-16 h-16 rounded-full mr-4">
+            <div>
+              <p class="font-bold text-usa-blue">Carla T.</p>
+              <p class="text-sm text-gray-500">Estudante, 16 anos</p>
+            </div>
+          </div>
+          <p class="text-gray-700 italic leading-relaxed">"Ótimos professores e um ambiente super interativo, mesmo à distância. Consegui melhorar muito meu inglês para o vestibular e ainda fiz amigos na turma!"</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="300">
+          <div class="flex items-center mb-6">
+            <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="André V." class="w-16 h-16 rounded-full mr-4">
+            <div>
+              <p class="font-bold text-usa-blue">André V.</p>
+              <p class="text-sm text-gray-500">Aposentado, 68 anos</p>
+            </div>
+          </div>
+          <p class="text-gray-700 italic leading-relaxed">"Nunca é tarde para aprender! Finalmente consegui realizar o sonho de falar inglês. O método da Rise Up é perfeito para quem tem mais experiência de vida. Super recomendo!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Matrícula -->
+  <section id="matricula" class="hero-bg py-20 px-4 text-center text-white">
+    <div class="max-w-4xl mx-auto" data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-6 text-shadow">Transforme Sua Vida com o Inglês</h2>
+      <p class="text-xl mb-8 opacity-90">Junte-se a mais de 5.000 alunos que já transformaram suas vidas com a Rise Up English</p>
+      <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+        <h3 class="text-2xl font-bold mb-4">🎁 Oferta Especial para Novos Alunos</h3>
+        <p class="text-lg mb-4">Primeira aula gratuita + Material didático digital incluso</p>
+        <p class="text-sm opacity-80">*Promoção válida por tempo limitado</p>
+      </div>
+      <a href="#contato" class="bg-usa-red hover:bg-red-700 text-white px-10 py-4 font-semibold rounded-lg shadow-lg transition-all transform hover:scale-105 inline-block text-lg">
+        Garantir Minha Vaga Agora
+      </a>
+    </div>
+  </section>
+
+  <!-- Formulário de Contato -->
+  <section id="contato" class="bg-white py-20 px-4">
+    <div class="max-w-2xl mx-auto" data-aos="fade-up">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-4 text-usa-blue">Fale Conosco</h2>
+        <p class="text-lg text-gray-600">Preencha o formulário e nossa equipe entrará em contato em até 24 horas</p>
+      </div>
+      
+      <form id="leadForm" class="space-y-6 bg-gray-50 p-8 rounded-2xl shadow-lg">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Nome Completo</label>
+            <input type="text" name="nome" placeholder="Digite seu nome completo" class="w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-usa-blue focus:border-transparent transition-all" required />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Idade</label>
+            <select name="idade" class="w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-usa-blue focus:border-transparent transition-all" required>
+              <option value="">Selecione sua faixa etária</option>
+              <option value="crianca">Criança (6-12 anos)</option>
+              <option value="adolescente">Adolescente (13-17 anos)</option>
+              <option value="adulto">Adulto (18-59 anos)</option>
+              <option value="terceira-idade">Terceira Idade (60+ anos)</option>
+            </select>
+          </div>
+        </div>
+        
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">E-mail</label>
+          <input type="email" name="email" placeholder="seu@email.com" class="w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-usa-blue focus:border-transparent transition-all" required />
+        </div>
+        
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">WhatsApp</label>
+          <input type="tel" name="telefone" placeholder="(11) 99999-9999" class="w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-usa-blue focus:border-transparent transition-all" required />
+        </div>
+        
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-2">Nível de Inglês Atual</label>
+          <select name="nivel" class="w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-usa-blue focus:border-transparent transition-all" required>
+            <option value="">Selecione seu nível</option>
+            <option value="iniciante">Iniciante (nunca estudei)</option>
+            <option value="basico">Básico (sei algumas palavras)</option>
+            <option value="intermediario">Intermediário (consigo me comunicar)</option>
+            <option value="avancado">Avançado (quero aperfeiçoar)</option>
+          </select>
+        </div>
+        
+        <button type="submit" class="bg-usa-red hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 w-full text-lg">
+          Quero Começar Minha Jornada no Inglês
+        </button>
+        
+        <p id="formMsg" class="text-green-600 text-center mt-4 hidden bg-green-50 p-4 rounded-lg">
+          ✅ Obrigado! Recebemos sua mensagem e entraremos em contato em breve.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Botão Flutuante WhatsApp -->
+  <a href="https://wa.me/5511978726197?text=Olá! Gostaria de saber mais sobre os cursos da Rise Up English." target="_blank" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl transition-all transform hover:scale-110 z-50" data-aos="zoom-in" data-aos-delay="1000">
+    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.787"/>
+    </svg>
+  </a>
+
+  <!-- Rodapé -->
+  <footer class="bg-usa-blue text-white py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4">Rise Up English</h3>
+          <p class="text-gray-300">Transformando vidas através do ensino de inglês online para todas as idades.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Cursos</h4>
+          <ul class="space-y-2 text-gray-300">
+            <li>Aulas ao Vivo</li>
+            <li>Mentorias</li>
+            <li>Curso Turbo</li>
+            <li>Inglês para Crianças</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Suporte</h4>
+          <ul class="space-y-2 text-gray-300">
+            <li>Central de Ajuda</li>
+            <li>WhatsApp</li>
+            <li>E-mail</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Contato</h4>
+          <ul class="space-y-2 text-gray-300">
+            <li>📞 (11) 97872-6197</li>
+            <li>📧 contato@riseupenglish.com</li>
+            <li>🌐 www.riseupengish.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-8 text-center text-gray-300">
+        <p>&copy; 2025 Rise Up English. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Inicializar AOS
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100
+    });
+
+    // Endpoint do formulário
+    const endpoint = "https://script.google.com/macros/s/AKfycbxPX13qwBYk4QRFBB3fDpGz3xm41Cv1NtaGbikAQYQrE919cqYclmga-sejKXFCAOgh/exec"; 
+
+    // Manipulador do formulário
+    document.getElementById('leadForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const data = {
+        nome: this.nome.value,
+        email: this.email.value,
+        telefone: this.telefone.value,
+        idade: this.idade.value,
+        nivel: this.nivel.value
+      };
+
+      // Desabilitar botão durante envio
+      const submitBtn = this.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = 'Enviando...';
+      submitBtn.disabled = true;
+
+      fetch(endpoint, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+      .then(res => res.json())
+      .then(res => {
+        document.getElementById('formMsg').classList.remove('hidden');
+        this.reset();
+      })
+      .catch(err => {
+        alert('Erro ao enviar. Tente novamente ou entre em contato via WhatsApp.');
+      })
+      .finally(() => {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+      });
+    });
+
+    // Smooth scroll para links internos
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+
